@@ -1,5 +1,5 @@
 # King County Housing with Multiple Regression
-![King Housing](./view/Images/Leader_14.jpg)
+![King Housing](./Images/Leader_14.jpg)
 
 Renaissance Realty is a distinguished and prestigious real estate firm that specializes in facilitating property transactions for homeowners. Our team has been assigned to analyze housing data in King County and predict house sale prices for a housing development agency.
 After conducting numerous linear regression models, we've identified crucial factors that contribute to higher property values. Our analysis indicates that square footage of living space and building grade are paramount variables. By leveraging these insights, our goal is to help the company make informed decisions, highlighting attributes such as spacious living areas, high-quality construction, and desirable amenities to maximize returns in the fiercely competitive King County housing market.
@@ -14,7 +14,7 @@ The current business problem is to come up with data driven solutions that can g
 
 ### The Data
 
-We got information from the King County House Data ![data set](./data/kc_house_data.csv), a dataset given to us at the start of the project. This file has details about 21,597 homes in King County It includes info on things like the number of bedrooms/bathrooms, floors, square footage, zip code, and condition of each home.
+We got information from the King County House Data [data set](./data/kc_house_data.csv), a dataset given to us at the start of the project. This file has details about 21,597 homes in King County It includes info on things like the number of bedrooms/bathrooms, floors, square footage, zip code, and condition of each home.
 
 
 ## Methodology
@@ -39,19 +39,19 @@ The results were as below:
 
 #### Model 1
 This is the first model it takes the price versus sqft_living as feature. We create a simple linear regression baseline model using two variables, **price**(target) and **square footage of the living space** in a home.
-![model 1](./view/Images/model%201.1.png)
+![model 1](./Images/model%201.1.png)
 
 #### Model 2
 We have included grade, waterfront and condition as they are categorical features in the dataset.
-![model 2](./view/Images/model%202.1.png)
+![model 2](./Images/model%202.1.png)
 
 #### Model 3
 We attempted a new model that included sqft_living, bathrooms, and bedrooms as features.
-![model 3](./view/Images/model%203.1.png)
+![model 3](./Images/model%203.1.png)
 
 #### Model 4
 Referencing from the above model, we added grade feature.
-![model 4](./view/Images/model%204.1.png)
+![model 4](./Images/model%204.1.png)
 
 #### Model 5
 Checking for multicolinearity in numerical variables which was present in sqft living and bathrooms and sqft living and sqft above.
